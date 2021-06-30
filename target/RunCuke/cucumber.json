@@ -1,0 +1,504 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5927441100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify that Bank manager should add customer successfully",
+        "description": "",
+        "id": "xyz-bank-test;verify-that-bank-manager-should-add-customer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1538856500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 353957800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on xyz bank homepage",
+            "match": {
+              "location": "BankStepDefs.iAmOnXyzBankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 388999200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on bank manager Login button",
+            "match": {
+              "location": "BankStepDefs.iClickOnBankManagerLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1406750900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add new customer account",
+            "match": {
+              "location": "BankStepDefs.iAddNewCustomerAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77742900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should add customer successfully",
+            "match": {
+              "location": "BankStepDefs.iShouldAddCustomerSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3600629100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify that Bank manager should open account successfully",
+        "description": "",
+        "id": "xyz-bank-test;verify-that-bank-manager-should-open-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1038940100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2156076100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have added a customer successfully",
+            "match": {
+              "location": "BankStepDefs.iHaveAddedACustomerSuccessfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3188372600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on open account button by navigating on Home page under Bank managers login",
+            "match": {
+              "location": "BankStepDefs.iClickOnOpenAccountButtonByNavigatingOnHomePageUnderBankManagersLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123019000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on process button",
+            "match": {
+              "location": "BankStepDefs.iClickOnProcessButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13787600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to open account successfully",
+            "match": {
+              "location": "BankStepDefs.iShouldBeAbleToOpenAccountSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Sanity"
+          },
+          {
+            "line": 9,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3096333900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify that customer should login and logout successfully",
+        "description": "",
+        "id": "xyz-bank-test;verify-that-customer-should-login-and-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1373130100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2194706700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have added a customer successfully",
+            "match": {
+              "location": "BankStepDefs.iHaveAddedACustomerSuccessfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265671500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on customer login button by navigating on Home page",
+            "match": {
+              "location": "BankStepDefs.iClickOnCustomerLoginButtonByNavigatingOnHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1666835100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I login using registered customer login details",
+            "match": {
+              "location": "BankStepDefs.iLoginUsingRegisteredCustomerLoginDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22088500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to login successfully",
+            "match": {
+              "location": "BankStepDefs.iShouldBeAbleToLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73463500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on logout button",
+            "match": {
+              "location": "BankStepDefs.iClickOnLogoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27265600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should be able to logout successfully",
+            "match": {
+              "location": "BankStepDefs.iShouldBeAbleToLogoutSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3060422000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "verify that customer should be able to deposit money successfully",
+        "description": "",
+        "id": "xyz-bank-test;verify-that-customer-should-be-able-to-deposit-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1299965500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5404092500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I have a valid bank account",
+            "match": {
+              "location": "BankStepDefs.iHaveAValidBankAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1942893800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I logged in using valid customer details",
+            "match": {
+              "location": "BankStepDefs.iLoggedInUsingValidCustomerDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601349400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I deposit \"100\" money by navigating on deposit tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 11
+                }
+              ],
+              "location": "BankStepDefs.iDepositMoneyByNavigatingOnDepositTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68289400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should be able to deposit money successfully",
+            "match": {
+              "location": "BankStepDefs.iShouldBeAbleToDepositMoneySuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2974613900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify that customer should be able to withdraw money successfully",
+        "description": "",
+        "id": "xyz-bank-test;verify-that-customer-should-be-able-to-withdraw-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 998755100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5552623000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I have a valid bank account",
+            "match": {
+              "location": "BankStepDefs.iHaveAValidBankAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2169273800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I logged in using valid customer details",
+            "match": {
+              "location": "BankStepDefs.iLoggedInUsingValidCustomerDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567725100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I deposit \"100\" money by navigating on deposit tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 11
+                }
+              ],
+              "location": "BankStepDefs.iDepositMoneyByNavigatingOnDepositTab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2087223900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I withdraw \"50\" money",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 12
+                }
+              ],
+              "location": "BankStepDefs.iWithdrawMoney(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52631900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should be able to withdraw money successfully",
+            "match": {
+              "location": "BankStepDefs.iShouldBeAbleToWithdrawMoneySuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "xyz bank test",
+    "description": "As a user I want to all bank functionality",
+    "id": "xyz-bank-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/addcustomerpage.feature"
+  }
+]
